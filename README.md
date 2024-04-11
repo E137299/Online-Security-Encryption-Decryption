@@ -34,7 +34,7 @@ Your mission is to write a program that will read a message and a keyword and ap
 
 Your program should prompt the user for some plain text to be encrypted. Then, it should prompt the user for some text which will serve as a keyword. 
 
-To perform the encryption, you need to loop through the plain text and add the index value for each letter from the keyword to it, mod 27. Unfortunately, neither the letters in the plain text nor in the keyword have values between 0 and 26. You will have to convert those letter values so that they are between 0 and 26, then do the add, then do the mod, then convert them back to the proper ASCII values. 
+To perform the encryption, you need to loop through the plain text and add the index value for each letter from the keyword to it, mod 27. Unfortunately, neither the letters in the plain text nor in the keyword have values between 0 and 27. You will have to convert those letter values so that they are between 0 and 27, then do the add, then do the mod, then convert them back to the proper ASCII values. 
 	
 You only need one loop for this program. However, the plain text is generally longer than the keyword. So, though you will only need one loop, you need to keep track of where you are in the keyword independently of the plain text. Whenever you get to the end of the keyword, you should set that index back to 0.
 
