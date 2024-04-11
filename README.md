@@ -1,25 +1,17 @@
 # Cesar Cipher
 ### Note: The unit tests returns a string of capitalized letters. Ex. cesar_encrypt("abc",1)>>>>"BCD"   
 
-You will write two functions for the first part of this assignment which allow one to encrypt and decrypt text using a Cesar Cipher. Two functions:
 
-- ### cesar_encrypt(text, shift):
+- ### caesar(text, shift):
 	- Inputs:
 	  - Text to be encrypted
 	  - Number of places that each letter will be displaced
 
     - Output:
 	    - Encrypted text will be returned. The letters in the text will all be capitalized.
-        
-- ### cesar_decrypt(text, shift):
-	- Inputs:
-	  - Text to be decrypted
-      - Number of places that each letter will be displaced
-    - Output:
-	    - Decrypted text will be returned. The letters in the text will all be capitalized.
 
 
-[Cesar Cipher Video Tutorial](https://youtu.be/fR8rVR72a6o)
+	[Cesar Cipher Video Tutorial](https://youtu.be/fR8rVR72a6o)
 
 
 
