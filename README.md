@@ -24,7 +24,7 @@ You will write two functions for the first part of this assignment which allow o
 
 
 # Vigenere
-![Vigenere](assets/vig.PNG)
+![Vigenere](vig.PNG)
 
 The objective of this lab is to implement the [Vigenère Cipher](https://privacycanada.net/classical-encryption/vigenere-cipher/). The Vigenère Cipher, uses a special keyword to encrypt a message - i.e. to create the cipher text. Each letter in the message and each letter in the keyword is represented by its position in the alphabet (A=0, B=1, … , Z=25). To create the cipher text, the integer value of the nth letter of each are added. Using modulus with 27 allows you to keep the result in the range of alphabetic values including a space.  If the keyword is shorter than the message, we simply repeat the keyword.
 
