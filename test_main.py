@@ -6,10 +6,10 @@ def test_caesar():
   assert cesar_encrypt("LXOKTJYXUSGTYIUATZXESKTRKTJSKEUAXKGX", 20) == "FRIENDSROMANSCOUNTRYMENLENDMEYOUREAR"
 
 def test_vigenere_encrypt():
-  assert vigenere_encrypt("ATTACKATDAWN", "LEMON") == "LXFOPVEFRNHR"
-  assert vigenere_encrypt("THEEAGLEHASLANDED", "AMERICA") == "TTIVIILETEJTCNDQH"
+  assert vigenere_encrypt("ATTACK AT DAWN", "LEMON") == "LXEOPVDMGMOEHA"
+  assert vigenere_encrypt("THE EAGLE HAS LANDED", "AMERICA") == "TTIQMCGLQDYIU LMRUMF"
 
 def test_vignere_decrypt():
-  assert vigenere_decrypt("LXFOPVEFRNHR", "LEMON") == "ATTACKATDAWN"
-  assert vigenere_decrypt("TTIVIILETEJTCNDQH", "AMERICA") == "THEEAGLEHASLANDED"
+  assert vigenere_decrypt("LXEOPVDMGMOEHA", "LEMON") == "ATTACK AT DAWN"
+  assert vigenere_decrypt("TTIQMCGLQDYIU LMRUMF", "america") == "THE EAGLE HAS LANDED"
   
