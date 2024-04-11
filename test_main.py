@@ -7,7 +7,7 @@ def test_caesar():
 
 def test_vigenere_encrypt():
   assert vigenere_encrypt("ATTACK AT DAWN", "LEMON") == "LXEOPVDMGMOEHA"
-  assert vigenere_encrypt("THE EAGLE HAS LANDED", "AMERICA") == "TTIQMCGLQDYIU LMRUMF"
+  assert vigenere_encrypt("THE EAGLE HAS LANDED.", "AMERICA") == "TTIOMCGLQBYIU LMRUMF"
 
 def test_vignere_decrypt():
   assert vigenere_decrypt("LXEOPVDMGMOEHA", "LEMON") == "ATTACK AT DAWN"
